@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing:border-box; /*width attribute will take account of padding*/
+    font-family: Atma;
+    color:rgba(67, 28, 6, 0.86);
+}
+
+html, body {
+    margin: 0;
+    padding: 0; /*remove margins and padding on body of website so header img stretches across entire screen*/
+}
+nav ul {
+    margin: 0; /*remove margins from unordered list elements*/
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav li {
+    display:inline; /*renders all the stuff inline instead of separate lines*/
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none; /*removes the underline from links*/
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(182, 154, 104, 0.6);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color:  rgba(82, 49, 30, 0.86);
+    cursor:pointer;
+}
+
 .main-header {
     background-color: rgba(87, 58, 9, 0.6);
     background-image: url("headerImg.jpg");
@@ -7,33 +53,67 @@
     padding-bottom: 30px;
 }
 
-h1 {
+.store-name {
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(247, 238, 205);
+    margin: 0;
+    font-size: 2em;
+    color: rgb(247, 238, 205);   
+}
+.store-name-large {
+    font-size: 5em;
 }
 
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto; /*magins on left and right can be anything so that the text is always centered*/
+    padding: 0 1.5em; /*txt will not be directly on the edge of the webpage*/
+}
+
+.section-header {
+    /*font-family: ;*/
+    text-align: center;
+    color:rgb(111, 73, 19);
+    font-size: 2.2em;
+}
+
+.coffee-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
 }
 
 .main-footer{
     background-color: rgba(67, 28, 6, 0.86);
     text-align: center;
     color:rgb(244, 220, 187);
+    padding: .25em 0;
 }
 
-.nav li {
-    display:inline;
-}
-.nav a {
-    display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
+.main-footer-container{
+    display: flex;
+    align-items: center;
 }
 
-.nav a:hover {
-    background-color:  rgba(82, 49, 30, 0.86);
-    cursor:pointer;
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;;
+}
+
+#copyright{
+    color:rgb(244, 220, 187);
 }
