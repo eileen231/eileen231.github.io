@@ -1,7 +1,18 @@
 .main-header {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(87, 58, 9, 0.6);
     background-image: url("headerImg.jpg");
     background-blend-mode: multiply;
     background-size: cover;
+    background-position: 5% 30%;
     padding-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(247, 238, 205);
+}
+
+.paragraph{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
