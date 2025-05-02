@@ -186,3 +186,14 @@ p{
 .btn-primary:hover {
     background-color: rgba(137, 50, 16, 0.704);
 }
+
+.hours-operation{
+    width:279px;
+    border-bottom: 1px solid rgba(82, 49, 30, 0.86);
+}
+
+.date {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
