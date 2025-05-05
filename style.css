@@ -227,3 +227,57 @@ p{
 .dropdown-content li a:hover {
     background-color: rgba(137, 50, 16, 0.704);
 }
+
+#login {
+    margin:0;
+    float:right;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.avatar{
+    border-radius: 50%;
+    width:10%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.submitbtn{
+    background-color: #04AA6D;
+    color: white;
+    border:none;
+    border-radius: 12px;
+    cursor:pointer;
+    width:20%;
+    height:30px;
+    margin: 8px 0;
+}
+
+.submitbtn:hover {
+    opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+    display: block;
+
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
